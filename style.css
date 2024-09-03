@@ -1,0 +1,155 @@
+/* general css*/
+body {
+    background-color:#212121;
+    color:white;
+  }
+header {
+  background-color:#161616;
+  height:80px;
+   
+}
+/*css for nav bar*/
+  .nav .nav-link h1{
+    font-size:25px;
+    font-family:'Poppins',sans-serif;
+    font-weight:500;
+    color:white;
+    margin-top:15px;
+    margin-left:30px;
+    position:relative;
+  }
+
+  .nav .nav-link h2{
+    font-size:20px;
+    font-family:'Poppins',sans-serif;
+    font-weight:380;
+    color:#bfbfbf;
+    margin-top:20px;
+    margin-left:27%;
+    position:absolute;
+  }
+  .nav .nav-link h3{
+    font-size:20px;
+    font-family:'Poppins',sans-serif;
+    font-weight:380;
+    color:#bfbfbf;
+    margin-top:20px;
+    margin-left:33%;
+    position:absolute;
+  }
+
+  .nav .nav-link :hover{
+    color:white;
+    
+  }
+ 
+#portfolio-section {
+    padding: 100px 0;
+}
+
+/*css for boxes*/
+.project-box {
+    
+    background-color: #161616;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-box img {
+    object-fit:cover;
+    height: 200px;
+    width:400px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.project-box h3 a{
+    color:white;
+    text-decoration:none;
+    font-family:'Poppins',sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-box p {
+    font-family:'Poppins',sans-serif;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project-box button {
+    font-family:'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color:#424242;
+    background:#424242;
+    color:white;
+}
+
+.project-box button:after{
+  content: '\00bb';
+  transition:0.5s;
+  opacity: 1;
+  right: 0;
+  }
+.project-box button:hover{
+  background-color:white;
+  color:#000000;
+  border-color:white;
+  padding-right:30px;
+  transition:0.5s;
+  }
+
+.project-box button:active{
+background-color:white;
+}
+
+/*css for modals*/
+
+.modal-title{
+  color:rgb(0, 0, 0);
+  
+}
+.modal-body{
+  color:rgb(0, 0, 0);
+  
+}
+.modal-img{
+    margin-left:auto;
+    margin-left:auto;
+    object-fit:cover;
+    height: 200px;
+    width:465px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+/*css for contacts*/
+#contact {
+  margin:5%;
+}
+#contact h1{
+  text-align:center;
+  font-family:'Poppins',sans-serif;
+  font-size:45px;
+  font-weight:600;
+}
+#contact .mb-1 .form-control{
+  font-family:'Poppins',sans-serif;
+}
+
+#contact button{
+    font-family:'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight:300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color:#424242;
+    background:#424242;
+    color:white;
+}
